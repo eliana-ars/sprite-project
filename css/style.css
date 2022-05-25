@@ -1,0 +1,10 @@
+#anima-sprite{
+    background: url("../imgs/sprite.png") -0px -531px;
+    background-size:850px;
+    width: 125px;
+    height: 100px;
+    animation: anima-sprite 2s steps(15) infinite;
+}
+@keyframes anima-sprite {
+    100% {background-position-x: -1200px;};
+}
